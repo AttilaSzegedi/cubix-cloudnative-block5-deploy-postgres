@@ -8,3 +8,4 @@ Replace password setting.
 ```shell
 helm upgrade postgresql bitnami/postgresql --version 12.1.9 -n cubix --set auth.password=<ENTER-PASSWORD> -f values.yaml --install
 ```
+# made own
